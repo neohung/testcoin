@@ -92,6 +92,7 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+console.log('NEO TEST\n');
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
